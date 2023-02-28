@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1 {
+    display: inline-block;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+    margin-top: 100px;
+    padding: 10px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+a:hover {
+    color: #EAF6F6;
+}
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 50px;
+}
+.middle-container {
+    margin: 100px 0px;
+}
+.intro {
+    text-align: center;
+}
+.profile {
+    margin-bottom: 100px;
+}
+.hello {
+    margin-top: 33.2px;
+}
+.intro-p {
+    width: 40%;
+    margin: auto;
+}
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+.contact-me {
+    margin: 100px auto 100px auto;
+}
+.git-p {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 20px;
+    background: #11999E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 40px;
+    line-height: 40px;
+    word-spacing: 2.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link {
+    color: #0d6f72;
+    text-decoration: none;
+}
+.copyright {
+    color: #EAF6F6;
+    margin-bottom: 0px;
+    word-spacing: normal;
+    font-size: smaller;
+}
+/*IMAGES*/
+.top-cloud {
+    position: absolute;
+    right: 350px;
+}
+.bottom-cloud {
+    position: absolute;
+}
+.foto-perfil {
+    width: 20%;
+    margin-top: 50px;
+}
+.foto-fisio {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.foto-laptop {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
